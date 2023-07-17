@@ -72,11 +72,11 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
   ignoreMasterTextureLimit: 0
+=======
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
-  cubemapConvolution: 0
-  seamlessCubemap: 0
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
@@ -111,6 +111,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 876cd4a1fe5ef7b8546308b6a9510bebf43e64fa
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +127,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+=======
+    ignorePlatformSupport: 0
+>>>>>>> 876cd4a1fe5ef7b8546308b6a9510bebf43e64fa
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +143,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+=======
+    ignorePlatformSupport: 0
+>>>>>>> 876cd4a1fe5ef7b8546308b6a9510bebf43e64fa
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +159,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +172,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+=======
+    ignorePlatformSupport: 0
+>>>>>>> 876cd4a1fe5ef7b8546308b6a9510bebf43e64fa
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -527,9 +543,14 @@ TextureImporter:
       PlayerBlackWalk_7: -3763208851180502378
       PlayerBlackWalk_8: 5021698509110033987
       PlayerBlackWalk_9: 6186484398174879028
+<<<<<<< HEAD
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+=======
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+>>>>>>> 876cd4a1fe5ef7b8546308b6a9510bebf43e64fa
   userData: 
   assetBundleName: 
   assetBundleVariant: 
