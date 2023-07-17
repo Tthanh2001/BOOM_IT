@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
+    public GameObject over;
+
+    private void Start()
+    {
+        players = GameObject.FindGameObjectsWithTag("Player");
+    }
 
     public void CheckWinState()
     {
@@ -11,19 +17,22 @@ public class GameManager : MonoBehaviour
 
         foreach (GameObject player in players)
         {
-            if (player.activeSelf) {
+            if (player.activeSelf)
+            {
                 aliveCount++;
             }
         }
 
-        if (aliveCount <= 1) {
-            Invoke(nameof(NewRound), 3f);
+        if (aliveCount <= 1)
+        {
+            EndGame();
         }
     }
 
-    private void NewRound()
+    private void EndGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        over.SetActive(true);
+        Instantiate(over, over.transform);
+        Time.timeScale = 0f;
     }
-
 }
